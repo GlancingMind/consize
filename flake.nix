@@ -12,6 +12,7 @@
       devShells.default = pkgs.mkShellNoCC {
         packages = with pkgs; [
           clojure
+          just
         ];
         
         shellHook = ''
